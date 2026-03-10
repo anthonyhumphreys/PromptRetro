@@ -1,0 +1,13 @@
+{
+  "name": "prompt-retro",
+  "display_name": "Prompt Retro",
+  "version": "0.1.0",
+  "description": "Record Claude Code sessions and run local retrospectives.",
+  "commands": [
+    "commands/replay.md",
+    "commands/retro.md",
+    "commands/retro-batch.md",
+    "commands/patterns.md"
+  ],
+  "hooks": "hooks/hooks.json"
+}

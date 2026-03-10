@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "UserPromptSubmit": {
+      "command": "node hooks/capture.js UserPromptSubmit"
+    },
+    "PostToolUse": {
+      "command": "node hooks/capture.js PostToolUse"
+    },
+    "Stop": {
+      "command": "node hooks/on_stop.js Stop"
+    },
+    "SubagentStop": {
+      "command": "node hooks/on_stop.js SubagentStop"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+node_modules
+dist
+**/dist
+.vite
+coverage
+.DS_Store
+.pretro
+prompt-retro.db
+.env
+*.log
+*.tsbuildinfo

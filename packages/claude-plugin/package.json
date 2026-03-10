@@ -1,0 +1,13 @@
+{
+  "name": "@prompt-retro/claude-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b --pretty false",
+    "test": "node --test dist/**/*.test.js"
+  }
+}
